@@ -9,14 +9,17 @@ export class SolarAge {
   }
   getMercuryAge() {
     const {years, death} = this;
-    const age = Math.floor(years / .24);
-    const adjustedDeath = Math.floor(death / .24 - age);
+    const age = Math.floor(years / 0.24);
+    const adjustedDeath = Math.floor(death / 0.24 - age);
     return `Your age on Mercury is ${age}. You have ${adjustedDeath} years to live.`;
   }
   getVenusAge() {
     const {years, death} = this;
-    const age = Math.floor(years / .62);
-    const adjustedDeath = Math.floor(death / .62 - age);
+    const age = Math.floor(years / 0.62);
+    const adjustedDeath = Math.floor(death / 0.62 - age);
     return `Your age on Venus is ${age}. You have ${adjustedDeath} years to live.`;
+  }
+  getMarsAge() {
+    
   }
 }
