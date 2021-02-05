@@ -14,10 +14,14 @@ describe("SolarAge", () => {
   test("It will return the age in Mercury years. It will also return the years to live.", () => {
     expect(solarAge.getMercuryAge()).toEqual('Your age on Mercury is 75. You have 258 years to live.'); 
   });
-  test("It will return the age in Venus years. It will also return the years to live", () => {
+  test("It will return the age in Venus years. It will also return the years to live.", () => {
     expect(solarAge.getVenusAge()).toEqual('Your age on Venus is 29. You have 100 years to live.')
   });
-  test("It will return the age in Mars years. It will also return the years to live", () => {
+  test("It will return the age in Mars years. It will also return the years to live.", () => {
     expect(solarAge.getMarsAge()).toEqual('Your age on Mars is 9. You have 33 years to live.')
   });
+  test("It will return the age in Jupiter years. It will also return the years to live.", () => {
+    expect(solarAge.getJupiterYears()).toEqual('Your age on Jupiter is 1. You have 5 years to live.')
+  });
+  
 });

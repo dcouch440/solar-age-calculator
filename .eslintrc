@@ -9,7 +9,7 @@
     "browser": true,
     "jquery": true,
     "node": true,
-    "jest/globals": true
+    "jest": true
   },
   "rules": {
       "semi": 1,
