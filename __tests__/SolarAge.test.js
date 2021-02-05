@@ -12,6 +12,6 @@ describe("SolarAge", () => {
     expect(solarAge.getEarthAge()).toEqual('Your age on Earth is 18. You have 62 years to live.');
   });
   test("It will return the age in Mercury years. It will also return the years to live.", () => {
-    expect(solarAge.getMercuryAge()).toEqual('Your age on Mercury is 18. You have 62 years to live.');
+    expect(solarAge.getMercuryAge()).toEqual('Your age on Mercury is 75. You have 258 years to live.'); 
   });
 });

@@ -5,9 +5,13 @@ export class SolarAge {
   }
   getEarthAge() {
     const {years, death} = this;
-    return `Your age on Earth is ${years}. You have ${death - years} years to live.`
+    return `Your age on Earth is ${years}. You have ${death - years} years to live.`;
   }
   getMercuryAge() {
-    return this.years / .24;
+    const {years, death} = this;
+    const age = Math.floor(years / .24);
+    const adjustedDeath = Math.floor(death / .24 - age);
+    return `Your age on Mercury is ${age}. You have ${adjustedDeath} years to live.`;
   }
+  
 }
