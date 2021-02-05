@@ -1,7 +1,7 @@
-# {Project Name}
-#### *Co-Created By:*
-#### *Co-Created By:*
-#### *{Brief Project Description}*
+# {Solar Age Calculator}
+#### *Created By: David Couch*
+
+#### *This is a solar age calculator*
 <!-- Check list
 - Project Name
 - Author
@@ -16,7 +16,7 @@
 * * *
 
 ## Description  
-{project description}
+This Application is designed to test a persons age to see how old they would be on another planet! The main focus of this application is to explore the functionality of Jest testing technology.
 
 * * *
 ## Specs
@@ -29,6 +29,10 @@
 * CSS
 * Git and Github
 * JavaScript
+* Jest
+* Webpack
+* Babel
+* Eslint
 
 * * *
 
@@ -37,7 +41,7 @@
 ### Want to see this webpage now?
 ###### See this web page in action on [Github Pages]({repo})
 
-* Go to ( {project repo} ).
+* Go to ( https://github.com/dcouch440/solar-age-calculator ).
 
 *  Navigate to the code button on the github website.\
 ![Code button](/img/README/code.PNG)
@@ -95,7 +99,7 @@ code .
 
 
 ## Addition comments:
-* Created on x/xx/21
+* Created on 2/05/21
 
 
 * * *
