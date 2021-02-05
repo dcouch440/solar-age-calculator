@@ -21,7 +21,7 @@ describe("SolarAge", () => {
     expect(solarAge.getMarsAge()).toEqual('Your age on Mars is 9. You have 33 years to live.');
   });
   test("It will return the age in Jupiter years. It will also return the years to live.", () => {
-    expect(solarAge.getJupiterYears()).toEqual('Your age on Jupiter is 1. You have 5 years to live.');
+    expect(solarAge.getJupiterYears()).toEqual('Your age on Jupiter is 1. You have 5 years to live.'); 
   });
 
 });
