@@ -1,11 +1,11 @@
 export class SolarAge {
   constructor(age){
-    this.earth = age
+    this.years = age;
   }
   getEarthAge() {
-    return this.earth;
+    return this.years;
   }
   getMercuryAge() {
-    
+    return this.years / .24;
   }
 }
