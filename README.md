@@ -31,7 +31,21 @@ This Application is designed to test a persons age to see how old they would be 
 * Eslint
 
 * * *
+## Specs
+```
+About jest:
+  jest is an open source testing package that builds off the idea of TDD. Jest uses deep equality to see if values are matched. A developer is the one making the test though so there is a high importance in being precise and modular.
 
+About babel: 
+  babel is used in this application for jest imports.
+
+About eslint:
+  eslint is used in this application to keep syntax in order.
+
+About webpack:
+  webpack is used in this application to bundle these technologies.
+  
+```
 ## Installation : 
 ### Want to see this webpage now?
 ###### See this web page in action on [Github Pages]({repo})
