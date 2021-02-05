@@ -7,3 +7,36 @@ html, body {
   height: 100%;
   width: 100%;
 }
+body {
+  background-color: black;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+}
+#ui-container {
+  height: 150px;
+  width: 100%;
+  padding: 20px;
+}
+#ui-container > * {
+  border-radius: 8px;
+  padding: 5px;
+}
+#ui-container > *:focus {
+  outline: none;
+  box-shadow: 0 0 1px 2px whitesmoke;
+}
+#submit {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#output {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  color: goldenrod;
+  font-size: 36px;
+}
+
+

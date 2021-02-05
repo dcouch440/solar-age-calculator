@@ -1,4 +1,4 @@
-# {Solar Age Calculator}
+# Solar Age Calculator
 #### *Created By: David Couch*
 
 #### *This is a solar age calculator*
@@ -31,7 +31,6 @@ This Application is designed to test a persons age to see how old they would be 
 * Eslint
 
 * * *
-
 
 ## Installation : 
 ### Want to see this webpage now?
