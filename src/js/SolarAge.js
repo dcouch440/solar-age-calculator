@@ -32,8 +32,9 @@ export class SolarAge {
   }
   getJupiterAge() {
     const {years, death} = this;
-    const age = Math.floor(years / 11.86);
-    const adjustedDeath = Math.floor(death / 11.86 - age);
-    return `Your age on Jupiter is ${age}. You have ${adjustedDeath} years to live.`;
+    const rate = 11.86;
+    const age = utils.ageConverter(years, rate);
+    const adjustedDeath = utils.deathConverter(years, rate, death);
+    return `Your age on Jupiter is ${age}. ${adjustedDeath}`;
   }
 }
