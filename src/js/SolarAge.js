@@ -1,3 +1,5 @@
+import * as utils from './utils.js';
+
 export class SolarAge {
   constructor(years, death){
     this.years = years;
@@ -9,9 +11,10 @@ export class SolarAge {
   }
   getMercuryAge() {
     const {years, death} = this;
-    const age = Math.floor(years / 0.24);
-    const adjustedDeath = Math.floor(death / 0.24 - age);
-    return `Your age on Mercury is ${age}. You have ${adjustedDeath} years to live.`;
+    const rate = 0.24;
+    const age = utils.ageConverter(years, rate);
+    const adjustedDeath = utils.deathConverter(years, rate, death);
+    return `Your age on Mercury is ${age}. ${adjustedDeath}`;
   }
   getVenusAge() {
     const {years, death} = this;
