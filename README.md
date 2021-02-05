@@ -2,17 +2,7 @@
 #### *Created By: David Couch*
 
 #### *This is a solar age calculator*
-<!-- Check list
-- Project Name
-- Author
-- Brief Description
-- Description
-- Specs
-- Link in gh-pages
-- Project repo
-- git clone repo link
-- date
- -->
+
 * * *
 
 ## Description  
@@ -44,11 +34,9 @@ About eslint:
 
 About webpack:
   webpack is used in this application to bundle these technologies.
-  
 ```
 ## Installation : 
 ### Want to see this webpage now?
-###### See this web page in action on [Github Pages]({repo})
 
 * Go to ( https://github.com/dcouch440/solar-age-calculator ).
 
