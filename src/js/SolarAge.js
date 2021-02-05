@@ -4,7 +4,8 @@ export class SolarAge {
     this.death = death;
   }
   getEarthAge() {
-    return this.years;
+    const {years, death} = this;
+    return `Your age on earth is ${years}. You have ${death - years} years to live.`
   }
   getMercuryAge() {
     return this.years / .24;
