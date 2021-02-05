@@ -3,6 +3,6 @@ export class SolarAge {
     this.earth = age
   }
   getEarthAge() {
-    
+    return this.earth;
   }
 }
