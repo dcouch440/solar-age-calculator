@@ -9,7 +9,7 @@ describe("SolarAge", () => {
     expect(solarAge).toEqual({years:18, death:80});
   });
   test("It will return the age in Earth earth years", () => {
-    expect(solarAge.getEarthAge()).toEqual(18);
+    expect(solarAge.getEarthAge()).toEqual('Your age on earth is 18. You have 62 years to live');
   });
   test("It will return the age in Mercury years", () => {
     expect(solarAge.getMercuryAge()).toEqual(75);
