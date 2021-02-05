@@ -1,4 +1,6 @@
 export class SolarAge {
-  constructor(){}
+  constructor(age){
+    this.earth = age
+  }
   
 }
