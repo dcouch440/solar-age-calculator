@@ -1,6 +1,7 @@
 export class SolarAge {
-  constructor(age){
-    this.years = age;
+  constructor(years, death){
+    this.years = years;
+    this.death = death;
   }
   getEarthAge() {
     return this.years;
