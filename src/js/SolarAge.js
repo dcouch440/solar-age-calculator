@@ -26,6 +26,9 @@ export class SolarAge {
     return `Your age on Mars is ${age}. You have ${adjustedDeath} years to live.`;
   }
   getJupiterYears() {
-    
+    const {years, death} = this;
+    const age = Math.floor(years / 11.86);
+    const adjustedDeath = Math.floor(death / 11.86 - age);
+    return `Your age on Jupiter is ${age}. You have ${adjustedDeath} years to live.`;
   }
 }
