@@ -19,10 +19,6 @@
 This Application is designed to test a persons age to see how old they would be on another planet! The main focus of this application is to explore the functionality of Jest testing technology.
 
 * * *
-## Specs
-
-
-* * *
 
 ## Technologies used
 * HTML
@@ -33,6 +29,7 @@ This Application is designed to test a persons age to see how old they would be 
 * Webpack
 * Babel
 * Eslint
+
 
 * * *
 
