@@ -5,4 +5,7 @@ export class SolarAge {
   getEarthAge() {
     return this.earth;
   }
+  getMercuryAge() {
+    
+  }
 }
