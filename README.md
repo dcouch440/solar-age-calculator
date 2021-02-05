@@ -53,7 +53,7 @@ This Application is designed to test a persons age to see how old they would be 
 
 - Once you have chosen your desired directory use the command.
 ```bash 
-git clone {git repo}
+git clone https://github.com/dcouch440/solar-age-calculator.git
 ```
 
 <div 
@@ -92,9 +92,33 @@ git clone {git repo}
 code .
 ```
 
+* Now run the fallowing code in the terminal you started with or feel free to use the terminal of the code editor you are using. Just make sure you are within the project directory! 
 
-## Addition comments:
+```bash
+npm install
+```
+* Then run
+
+```bash
+npm start
+```
+
+* congratulations you are ready to go!
+
+## Addition Comments:
 * Created on 2/05/21
+
+### `npm install`
+Installs the dependencies listed in the package.json file
+
+### `npm run build`
+Bundles your new app
+
+### `npm run start`
+Starts up your application using a node server.
+
+### `npm run test`
+Launches jest test runner.
 
 
 * * *
@@ -108,3 +132,4 @@ Licensed under [MIT license](https://mit-license.org/)
 
 ## Contact Information
 _David Couch: [Email](dcouch440@gmail.com)_
+
