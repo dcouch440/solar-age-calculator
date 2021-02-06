@@ -1,4 +1,4 @@
-# Solar Age Calculator
+# `Solar Age Calculator 🌝`
 #### *Created By: David Couch*
 
 #### *This is a solar age calculator*
