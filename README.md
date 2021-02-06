@@ -24,7 +24,8 @@ This Application is designed to test a persons age to see how old they would be 
 ## Specs
 ```
 About jest:
-  jest is an open source testing package that builds off the idea of TDD. Jest uses deep equality to see if values are matched. A developer is the one making the test though so there is a high importance in being precise and modular.
+  jest is an open source testing package that builds off the idea of TDD. 
+  Jest uses deep equality to see if values are matched.
 
 About babel: 
   babel is used in this application for jest imports.
