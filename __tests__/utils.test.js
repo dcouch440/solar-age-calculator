@@ -1,4 +1,10 @@
-import {deathConverter} from '../src/js/utils.js';
+import {ageConverter, deathConverter} from '../src/js/utils.js';
+
+describe('ageConverter', () => {
+  test("It will divide a given value by a given value. In this case, a float which is being used as a rate", () => {
+    expect(ageConverter(18, 0.24)).toEqual(75);
+  });
+});
 
 describe('deathConverter', () => {
   test("It should return the years the person has to live and convert it to the solar age.", () => {
