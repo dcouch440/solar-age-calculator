@@ -7,7 +7,10 @@ export class SolarAge {
   }
   getEarthAge() {
     const {years, death} = this;
-    return `Your age on Earth is ${years}. You have ${death - years} years to live.`;
+    const rate = 1;
+    const age = utils.ageConverter(years, rate);
+    const adjustedDeath = utils.deathConverter(years, rate, death);
+    return `Your age on Earth is ${age}. ${adjustedDeath}`;
   }
   getMercuryAge() {
     const {years, death} = this;
