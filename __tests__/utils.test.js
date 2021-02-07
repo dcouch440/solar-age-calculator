@@ -8,7 +8,7 @@ describe('ageConverter', () => {
 
 describe('deathConverter', () => {
   test("It should return the years the person has to live and convert it to the solar age.", () => {
-    expect(deathConverter(18, 1, 80)).toEqual('You have 62 years to live.' );
+    expect(deathConverter(18, 1, 80)).toEqual('You have 62 years to live.');
 
   });
   test("It should return an alternate sentence if the person is living past their expected life span", () => {
