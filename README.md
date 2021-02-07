@@ -100,11 +100,7 @@ code .
 ```bash
 npm install
 ```
-* Then run
-```bash
-npm build
-```
-* Finally 
+* Finally
 ```bash
 npm start
 ```
