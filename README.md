@@ -105,7 +105,6 @@ npm install
 npm build
 ```
 * Finally 
-
 ```bash
 npm start
 ```
