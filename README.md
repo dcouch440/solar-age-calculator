@@ -101,6 +101,10 @@ code .
 npm install
 ```
 * Then run
+```bash
+npm build
+```
+* Finally 
 
 ```bash
 npm start
