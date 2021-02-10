@@ -22,12 +22,12 @@ This Application is designed to test a persons age to see how old they would be 
 * Eslint ```6.3.0```
 
 * * *
-## Specs
+# Specs
 
 ## About Jest:
-  ### This app:
+  #### This app:
   *  Jest is used in this app to test segregated sections of code to ensure things are working correctly.
-  ### What is Jest?
+  #### What is Jest?
   *  From [wikipedia]( https://en.wikipedia.org/wiki/Jest_(JavaScript_framework) ) : \
     "Jest is a JavaScript testing framework maintained by Facebook, Inc. designed and built by Christoph Nakazawa with a focus on simplicity and support for large web applications. It works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js and Svelte."
 ***
